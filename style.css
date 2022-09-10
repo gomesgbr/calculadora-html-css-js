@@ -1,0 +1,24 @@
+body *{
+    border: 1px solid black;
+}
+
+.principal{
+    width: 35vh;
+    margin: 10px auto;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+
+td{
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.monitor{
+    text-align: right;
+}
