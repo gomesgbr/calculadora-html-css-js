@@ -1,24 +1,35 @@
-body *{
+body * {
     border: 1px solid black;
 }
 
-.principal{
-    width: 35vh;
-    margin: 10px auto;
+.principal {
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 0;
 }
 
-table{
+table {
     width: 100%;
     margin: 0 auto;
-}
-
-td{
-    height: 30px;
-    text-align: center;
-    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
-.monitor{
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    border-radius: 5%;
+
+}
+
+.monitor {
+    width: 300px;
+    height: 100px;
     text-align: right;
+    padding-right: 30px;
+    font-size: 50px;
+    box-sizing: content-box;
+    border-radius: 0;
 }
